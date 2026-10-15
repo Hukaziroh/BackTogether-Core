@@ -1,4 +1,4 @@
-# 🎮 BackTogether - Core Architecture & Network Showcase
+# BackTogether - Core Architecture & Network Showcase
 
 [![Steam Store](https://img.shields.io/badge/Steam-Store_Page-1b2838?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com/app/5086830/BACK_TOGETHER/)
 [![Unity](https://img.shields.io/badge/Unity-2022.3+-black?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com/)
@@ -10,13 +10,13 @@
 
 ---
 
-## 📌 Repository Purpose & Security Notice (보안 및 저작권 안내)
+## Repository Purpose & Security Notice (보안 및 저작권 안내)
 * **상용 출시 보호**: 본 게임은 **2026년 10월 30일 Steam 정식 출시 예정작 (AppID: 5086830)**으로, 상용 에셋, 레벨 디자인 씬 파일(`.unity`), 타 팀원의 리소스는 저작권 보호를 위해 제외되었습니다.
 * **민감 정보 검수 완료**: EOS Product/Sandbox/Deployment ID, Client Secret, STOVE Application Key 등 실제 서비스 인증 정보 및 Secret Key는 전수 검수하여 배제되었으며, 코드 구조와 아키텍처 중심으로 공개되어 있습니다.
 
 ---
 
-## 👥 담당 역할 (Role & Responsibility)
+## 담당 역할 (Role & Responsibility)
 * **직책**: 팀장 (Team Leader) & 테크니컬 리드 (Technical Lead / Main Programmer)
 * **기여 내용**:
   1. **프로젝트 기획 및 룰 설계**: 2~4인 협동 퍼즐 메커니즘 기획, 정규 6개 챕터 및 EX 스테이지/하드코어 모드 설계
@@ -27,7 +27,7 @@
 
 ---
 
-## 🏗️ 시스템 아키텍처 (System Architecture)
+## 시스템 아키텍처 (System Architecture)
 
 ```mermaid
 flowchart TD
@@ -75,7 +75,7 @@ flowchart TD
 
 ---
 
-## 📂 디렉토리 구조 (Directory Structure)
+## 디렉토리 구조 (Directory Structure)
 
 ```bash
 BackTogether-Core/
@@ -117,7 +117,7 @@ BackTogether-Core/
 
 ---
 
-## 💡 핵심 기술적 성과 및 트러블슈팅 (Key Challenges & Solutions)
+## 핵심 기술적 성과 및 트러블슈팅 (Key Challenges & Solutions)
 
 ### 1. 호스트 방폭(Host Disconnect) 및 유령 세션 문제 해결
 * **문제 상황**: P2P 릴레이 환경에서 방장이 게임 도중 강제 종료(Alt+F4)하거나 방을 폭파했을 때, 참여 중이던 클라이언트들의 세션 정보가 메모리에 남아 재접속 시 소켓 충돌이 발생하거나 무한 로딩에 빠지는 현상 발생.
@@ -139,7 +139,7 @@ BackTogether-Core/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Engine**: Unity 2022.3+ (URP, 2D Feature Set)
 * **Language**: C# (.NET Standard 2.1)
 * **Networking**: Mirror, Epic Online Services (EOS) Relay
