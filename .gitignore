@@ -1,0 +1,14 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.sln
+*.csproj
+*.userprefs
+
+# Temp & Logs
+*.log
+*.tmp
